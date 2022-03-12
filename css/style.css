@@ -48,3 +48,8 @@
     height: 50vh;
     width: 100%;
 }
+.contacts {
+    text-align: center;
+    color: white;
+    background-image: url(../assets/backgrounds/c_image.jpg);
+}
