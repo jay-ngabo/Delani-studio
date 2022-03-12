@@ -52,4 +52,7 @@
     text-align: center;
     color: white;
     background-image: url(../assets/backgrounds/c_image.jpg);
+    height: 80vh;
+    background-size: cover;
+    margin-top: 50px;
 }
