@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#background {
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    color: white;
+    
+}
+.about {
+    text-align: center;
+    color: black;
+}
+.services{
+    text-align: center;
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    color: white;
+    margin-top: 100;
+    height: 40vh;
+    background-size: cover;
+    font-size: small;
+    
+    
+
+}
+.servicetext {
+    margin-top: 10%;
+    
+}
+.whatwedo {
+    text-align: center;
+    
+
+}
+.col-lg-4 Desing {
+    font-size: small;
+    text-align: center;
+}
