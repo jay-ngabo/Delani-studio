@@ -40,3 +40,11 @@
     font-size: small;
     text-align: center;
 }
+/* .whatwedo {
+    display: none;
+} */
+.row-lg-6portfolio {
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+}
