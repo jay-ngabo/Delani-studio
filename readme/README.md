@@ -1,7 +1,7 @@
 #DELANI-STUDIO
-#A software development company website
+
 ###DELANI-STUDIO Layout
-g
+
 
 
 
