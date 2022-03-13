@@ -47,14 +47,14 @@
 .whatwedo {
     text-align: center;
 }
-.row-lg-6portfolio {
+/* .row-lg-6portfolio {
     text-align: center;
     height: 50vh;
     width: 100%;
-}
+} */
 .contacts {
     text-align: center;
-    color: white;
+    color: black;
     background-image: url(../assets/backgrounds/c_image.jpg);
     height: 80vh;
     background-size: cover;
@@ -68,9 +68,17 @@
 
     
 }
-/* .portfolio img {
-    margin-left: 15px;
-
-
-
-} */
+.portfolio {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.mailchimp {
+    margin-left: 300px;
+}
+.container {
+    margin-left: 120px;
+}
+.end {
+    text-align: center;
+}
