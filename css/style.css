@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 20px;
+    
+  }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 #background {
     background-image: url(/assets/backgrounds/h_img.jpg);
     background-size: cover;
@@ -34,7 +45,7 @@
     margin-top: 10%;
     
 }
-#prod {
+.prod {
     text-align: center;
     display: none;
     
@@ -47,11 +58,7 @@
 .whatwedo {
     text-align: center;
 }
-/* .row-lg-6portfolio {
-    text-align: center;
-    height: 50vh;
-    width: 100%;
-} */
+
 .contacts {
     text-align: center;
     color: black;
@@ -64,8 +71,7 @@
     display: none;
 }
 #design {
-    display: none;
-
+  
     
 }
 .portfolio {
@@ -82,3 +88,8 @@
 .end {
     text-align: center;
 }
+.overlay {
+    margin-top: -100px;
+    border-style: double;
+    color: white;
+    display: none;
