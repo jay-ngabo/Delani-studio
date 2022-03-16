@@ -37,6 +37,7 @@ body {
     height: 40vh;
     background-size: cover;
     font-size: small;
+    width: 100%;
     
     
 
@@ -90,6 +91,41 @@ body {
 }
 .overlay {
     margin-top: -100px;
-    border-style: double;
+    border-spacing: 10px;
     color: white;
     display: none;
+} 
+@media(max-width :600px){
+    #background .img3 {
+        /* background-image: url(../assets/backgrounds/h_img.jpg); */
+        /* background-size: cover; */
+        /* height: 100vh; */
+        /* width: 100%; */
+        /* color: black; */
+        /* text-align: center; */
+        /* margin-bottom: 80%; */
+        /* white-space: nowrap; */
+        padding-bottom: 70%;
+
+
+    
+        
+    }
+    .about {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .services {
+        /* width: 100%; */
+        /* background-size: contain; */
+        background-repeat: no-repeat;
+        
+    }
+    .services p {
+        padding-bottom: 10%;
+        
+    }
+    .img2  {
+        margin: 5%;
+    }
+}
